@@ -25,9 +25,16 @@ body > * {
 // header, the first grid row
 // it is also a grid for the logo and nav
 header {
-  grid-column: full;
-  display: grid;
-  background-color: $brand-color;
+  // grid-column: full;
+  position: fixed;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+
+  width: 100%;
+  // background-color: $brand-color;
+  background: none;
   padding: 2rem;
   @media screen and (min-width: $screen-sm-min) {
     grid-template-columns: 1fr auto;
@@ -37,8 +44,12 @@ header {
 
 // logo, is a grid item
 header > h1 {
-  display: inline-block;
+  // display: inline-block;
+  
   padding-bottom: 1rem;
+  color: rgb(0, 0, 0);
+  
+
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
   }
@@ -46,7 +57,7 @@ header > h1 {
   a:visited {
     text-decoration: none;
     border: 0;
-    color: white;
+    color: rgb(0, 0, 0);
     @media screen and (min-width: $screen-sm-min) {
       padding: 1rem;
     }

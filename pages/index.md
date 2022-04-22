@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Spazio Classico "
+title: "Home"
 permalink: /
 section: home
 intro_paragraph: Spazio Classico vende macchine bellissime
