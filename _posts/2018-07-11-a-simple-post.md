@@ -1,9 +1,9 @@
 ---
 layout: post
 title: A simple blog post
-author: dan_urbanowicz
+author: giulio
 date: 2018-07-11T00:12:57.000Z
-intro_paragraph: ''
+intro_paragraph: ""
 categories: misc
 ---
 ![](/assets/img/uploads/porsche-930_16-9.jpg)
