@@ -48,7 +48,7 @@ header > h1 {
   
   padding-bottom: 1rem;
   color: rgb(0, 0, 0);
-  
+
 
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
@@ -127,8 +127,8 @@ main {
 // blog posts list
 html[data-current="blog"] main > section {
   ul li {
-    padding: 2rem 0;
-    border-bottom: 0.05em solid $hairline-color;
+    // padding: 2rem 0;
+    // border-bottom: 0.05em solid $hairline-color;
     p {
       padding-bottom: 0;
     }
